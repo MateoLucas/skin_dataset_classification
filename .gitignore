@@ -1,13 +1,10 @@
-# Ignorar el dataset pesado
 data/
-
-# Ignorar el instalador de Miniconda
-Miniconda3-latest-Linux-x86_64.sh
-
-# Ignorar las llaves temporales que te quedaron ahí
-nostromo_github_ssh
-nostromo_github_ssh.pub
-
-# Ignorar carpetas de python cache y checkpoints
+*.pth
 __pycache__/
 .ipynb_checkpoints/
+.env/
+.venv/
+env/
+res/
+runs/
+mlruns/
